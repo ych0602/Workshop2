@@ -19,5 +19,5 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: echo hello
+      run: go build ./randnum/main.go
 
